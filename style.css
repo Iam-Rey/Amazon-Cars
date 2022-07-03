@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.logo1{
+    width: 140px;
+    height: 50px;
+}
+.logo2{
+    width: 30px;
+    height: 20px;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-right: 40px;
+}
+.search-bar{
+    width: 370px;
+    height: 40px;
+    margin-left: -70px;
+}
+.login, .sign-up, .cars{
+    margin-top: 0;
+}
+.cars{
+    margin-left: -310px;
+    color: rgb(255, 153, 0);
+}
+.logo1{
+    margin-left: 40px;
+}
+.arrow{
+    margin-top: 0;
+    font-size: xx-large;
+    border: none;
+    background-color: rgb(255, 153, 0);
+    margin-left: -309px;
+}
+
