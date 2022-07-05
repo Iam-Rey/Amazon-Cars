@@ -26,14 +26,14 @@ body{
 }
 .search-bar{
     width: 410px;
-    height: 40px;
+    height: 43px;
     margin-left: -40px;
 }
 .login, .sign-up, .cars{
     margin-top: 0;
 }
 .cars{
-    margin-left: -240px;
+    margin-left: -237px;
     color: rgb(255, 153, 0);
 }
 .logo1{
@@ -46,8 +46,8 @@ body{
     width: 40px;
     height: 40px;
     background-color: rgb(255, 153, 0);
-    margin-left: -241px;
-    padding-bottom: 2px;
+    margin-left: -237px;
+    padding-bottom: 3px;
     
 }
 .login{
@@ -264,13 +264,19 @@ body{
 li{
     color: rgb(207, 202, 202);
 }
+.gateway-div{
+    margin-top: 90px;
+}
 .gateway{
     text-align: center;
     margin: auto;
 }
 .gateways{
+    display: flex;
+    justify-content: space-between;
     margin-top: 40px;
     margin-left: 140px;
+    margin-right: 140px;
     
 }
 .a-pay{
@@ -293,11 +299,31 @@ li{
     height: 40px;
     width: 130px;
 }
+.stripe{
+    height: 40px;
+    width: 130px;
+}
+.braintree{
+    height: 40px;
+    width: 130px;
+}
+.payfast{
+    height: 40px;
+    width: 130px;
+}
+.skrill{
+    height: 40px;
+    width: 130px;
+}
+.pay-gate{
+    height: 40px;
+    width: 130px;
+}
 .back{
     margin: auto;
     text-align: center;
     color: navy;
-    margin-top: 130px;
+    margin-top: 180px;
 }
 .footer{
     border-style: none;
@@ -305,9 +331,10 @@ li{
     border-right: none;
     border-bottom: none;
     box-shadow: 0px 0px 5px 5px #615f5f;
-    height: 500px;
+    height: 450px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 10px;
     padding-top: 50px;
 }
 .amazon{
@@ -315,9 +342,18 @@ li{
     width: 130px;
     margin-left: 50px;
 }
+.footer-logo{
+    display: flex;
+    flex-direction: row;
+}
+.cars2{
+    margin-top: 0;
+    margin-left: 3px;
+    color: rgb(255, 153, 0);
+}
 .sub-footer1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-size: large;
     margin-left: 170px;
 }
@@ -325,20 +361,57 @@ li{
     
 }
 #careers{
-    margin-left: 42px;
+    margin-left: 22px;
+    font-size: medium;
+    color: #cfcfcf;
 }
 #blog{
-    margin-left: -67px;
+    margin-left: 30px;
+    font-size: medium;
+    color: #cfcfcf;
 }
 #about{
-    margin-left: -10px;
+    margin-left: -17px;
+    font-size: medium;
+    color: #cfcfcf;
 }
 #payment{
     margin-left: 30px;
+    font-size: medium;
+    color: #cfcfcf;
 }
 #banks{
-    margin-left: -105px;
+    margin-left: 100px;
+    font-size: medium;
+    color: #cfcfcf;
+}
+#lang{
+    margin-left: 35px;
+    font-size: medium;
+    color: #cfcfcf;
 }
 #reviews{
-    margin-left: -60px;
+    margin-left: -40px;
+    font-size: medium;
+    color: #cfcfcf;
+}
+#insurance{
+    margin-left: 40px;
+    font-size: medium;
+    color: #cfcfcf;
+}
+#english{
+    margin-left: 29px;
+    font-size: medium;
+    color: #cfcfcf;
+}
+.flag{
+    height: 16px;
+    width: 20px;
+}
+.copy{
+    margin-top: 140px;
+    font-size: small;
+    margin-left: 980px;
+    color: #cfcfcf;
 }
