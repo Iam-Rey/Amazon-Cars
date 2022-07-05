@@ -28,7 +28,7 @@
        
     </div>
     <div class="options">
-        <p class="opt"> Buy a Car | Sell a Car</p>
+        <p class="opt"><span id="buy">Buy a Car</span> | <span id="sell">Sell a Car</span></p>
     </div>
     
     <div class="description">
@@ -129,7 +129,7 @@
         <img src="payment gateway.png" alt="payment gateway" class="pay-gate">
     </div>
     <div class="back">
-        <h3>Back to top &#8593</h3>
+        <a href="index.html"><h3 id="back">Back to top &#8593</h3></a>
     </div>
    
     <footer>
@@ -156,14 +156,22 @@
             <div class="sub-footer1">
                 <p id="blog">Blog
                     <p id="banks">Banks</p>
-                    <p id="lang">Language</p>
+                    <p id="support">Customer Support</p>
                 </p>
             </div>
 
             <div class="sub-footer1">
                 <p id="about">About Amazon cars
                     <p id="insurance">Insurance</p>
-                    <p id="english">English <img src="flag.jpg" alt="flag" class="flag"></p>
+                    
+
+<select name="language" id="language">
+  <option value="english">English <img src="flag.jpg" alt="flag" class="flag"></option>
+  <option value="french">Francais</option>
+  <option value="spanish">Espanol</option>
+  <option value="italian">Italia</option>
+</select>
+                    <p id="english"></p>
                 </p>
             </div>
 

@@ -28,6 +28,7 @@ body{
     width: 410px;
     height: 43px;
     margin-left: -40px;
+    font-size: larger;
 }
 .login, .sign-up, .cars{
     margin-top: 0;
@@ -64,6 +65,7 @@ body{
 .opt{
     margin-top: 0;
     font-size: xx-large;
+    color: rgb(255, 153, 0);
 }
 .description{
     width: 60%;
@@ -323,7 +325,7 @@ li{
     margin: auto;
     text-align: center;
     color: navy;
-    margin-top: 180px;
+    margin-top: 160px;
 }
 .footer{
     border-style: none;
@@ -331,7 +333,7 @@ li{
     border-right: none;
     border-bottom: none;
     box-shadow: 0px 0px 5px 5px #615f5f;
-    height: 450px;
+    height: 380px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -381,12 +383,12 @@ li{
     color: #cfcfcf;
 }
 #banks{
-    margin-left: 100px;
+    margin-left: 125px;
     font-size: medium;
     color: #cfcfcf;
 }
-#lang{
-    margin-left: 35px;
+#support{
+    margin-left: 27px;
     font-size: medium;
     color: #cfcfcf;
 }
@@ -396,22 +398,111 @@ li{
     color: #cfcfcf;
 }
 #insurance{
-    margin-left: 40px;
+    margin-left: 170px;
     font-size: medium;
     color: #cfcfcf;
 }
-#english{
-    margin-left: 29px;
-    font-size: medium;
+#language{
+    height: 20px;
+    width: 70px;
+    font-size: smaller;
+    border-radius: 2px;
+    border-right: none;
+    border-bottom: none;
+    box-shadow: 0px 0px 1px 1px #615f5f;
+    background-color: #242222;
+    margin-left: 170px;
+    font-size: small;
     color: #cfcfcf;
 }
 .flag{
-    height: 16px;
+    height: 15px;
     width: 20px;
 }
 .copy{
-    margin-top: 140px;
+    margin-top: 70px;
     font-size: small;
     margin-left: 980px;
     color: #cfcfcf;
+}
+.arrow:hover{
+    cursor: default;
+    background-color: rgb(248, 180, 79);
+}
+.login:hover, .sign-up:hover{
+    cursor: pointer;
+    color: rgb(255, 153, 0);
+}
+.login:active, .sign-up:active{
+   color: navy;
+}
+.logo2:hover{
+    cursor: pointer;
+    border-style: none;
+    border-radius: 2px;
+    height: 25px;
+    width: 40px;
+    padding: 6px;
+    background-color: rgb(255, 153, 0);
+}
+#buy:hover{
+    cursor: pointer;
+    border-style: none;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #242222;
+    color: rgb(255, 153, 0);
+}
+#sell:hover{
+    cursor: pointer;
+    border-style: none;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #242222;
+    color: rgb(255, 153, 0);
+}
+#buy:active, #sell:active{
+    color: navy;
+}
+#faq:hover{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+#faq:active{
+    color: red;
+}
+.sub-list:hover{
+    cursor: pointer;
+    color: white;
+}
+.sub-list:active{
+    color: navy;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #cfcfcf;
+}
+a:active{
+    color: red;
+}
+#careers:hover, #payment:hover, #reviews:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+#blog:hover, #banks:hover, #about:hover, #insurance:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+}
+#support:hover, #faq2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
 }
