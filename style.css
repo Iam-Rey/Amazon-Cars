@@ -359,9 +359,6 @@ li{
     font-size: large;
     margin-left: 170px;
 }
-#get{
-    
-}
 #careers{
     margin-left: 22px;
     font-size: medium;
@@ -521,4 +518,352 @@ a:active{
 }
 #support:active, #faq2:active{
     color:  rgb(248, 180, 79);
+}
+
+
+@media screen and (max-width:375px) {
+    .logo1{
+        width: 50px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .logo2{
+        width: 15px;
+        height: 15px;
+    }
+    .cars{
+        font-size: small;
+        margin-left: 27px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        margin-right: 10px;
+    }
+    .search-bar{
+        width: 120px;
+        height: 15px;
+        margin-left: -32px;
+        font-size: x-small;
+    }
+    .cars{
+        margin-left: -58px;
+        color: rgb(255, 153, 0);
+    }
+    .arrow{
+        margin-top: 0;
+        font-size: small;
+        border: none;
+        width: 15px;
+        height: 15px;
+        background-color: rgb(255, 153, 0);
+        margin-left: -59px;
+        padding-bottom: 1px;
+        padding-top: -1px;
+        
+    }
+    .login{
+        font-size: x-small;
+        margin-left: -35px;
+    }
+    .sign-up{
+        font-size: x-small;
+        margin-right: 9px;
+    }
+    .opt{
+        font-size: small;
+    }
+    .paragraph1{
+        font-size: small;
+        line-height: 20px;
+    }
+    .paragraph2{
+        font-size: smaller;
+    }
+    .description{
+        width: 70%;
+    }
+    .our{
+        text-align: center;
+        margin-top: 30px;
+    }
+    #our{
+        font-size: large;
+    }
+    .list1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-style: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 0px 0px 5px 5px #615f5f;
+        background-color: rgb(36, 34, 34);
+        border-radius: 20px;
+        padding: 0px;
+    }
+    #list1{
+        font-size: small;
+        width: 180px;
+    }
+    .buy-cars{
+        margin-left: 15px;
+        height: 70px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .list2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-style: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 0px 0px 5px 5px #615f5f;
+        background-color: rgb(36, 34, 34);
+        border-radius: 20px;
+        padding: 0px;
+        height: 135px;
+    }
+    #list2{
+        font-size: small;
+        width: 180px;
+        margin-top: 0px;
+    }
+    .sell-car{
+        margin-left: 15px;
+        height: 70px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .list3{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-style: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 0px 0px 5px 5px #615f5f;
+        background-color: rgb(36, 34, 34);
+        border-radius: 20px;
+        padding: 0px;
+        height: 135px;
+    }
+    #list3{
+        font-size: small;
+        width: 180px;
+        margin-top: 0px;
+    }
+    .savings{
+        margin-left: 15px;
+        height: 70px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .list4{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-style: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 0px 0px 5px 5px #615f5f;
+        background-color: rgb(36, 34, 34);
+        border-radius: 20px;
+        padding: 0px;
+        height: 135px;
+    }
+    #list4{
+        font-size: small;
+        width: 180px;
+        margin-top: 0px;
+    }
+    .brand{
+        margin-left: 15px;
+        height: 70px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .list5{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-style: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 0px 0px 5px 5px #615f5f;
+        background-color: rgb(36, 34, 34);
+        border-radius: 20px;
+        padding: 0px;
+        height: 135px;
+    }
+    #list5{
+        font-size: x-small;
+        width: 180px;
+        margin-top: 0px;
+    }
+    .inspection{
+        margin-left: 15px;
+        height: 70px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .list6{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-style: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 0px 0px 5px 5px #615f5f;
+        background-color: rgb(36, 34, 34);
+        border-radius: 20px;
+        padding: 0px;
+        height: 135px;
+    }
+    #list6{
+        font-size: x-small;
+        width: 180px;
+        margin-top: 7px;
+    }
+    .payment{
+        margin-left: 15px;
+        height: 70px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .list7{
+        display: flex;
+        flex-direction: row;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 30px;
+        border-style: none;
+        border-right: none;
+        border-bottom: none;
+        box-shadow: 0px 0px 5px 5px #615f5f;
+        background-color: rgb(36, 34, 34);
+        border-radius: 20px;
+        padding: 0px;
+        height: 135px;
+    }
+    #list7{
+        font-size: x-small;
+        width: 180px;
+        margin-top: 7px;
+    }
+    .insurance{
+        margin-left: 15px;
+        height: 70px;
+        width: 100px;
+        margin-top: 35px;
+    }
+    .gateway-div{
+        margin-top: 20px;
+    }
+    .gateway{
+        text-align: center;
+        margin: auto;
+        font-size: medium;
+    }
+    .gateways{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .a-pay, .paypal, .payoneer, .mastercard{
+        height: 20px;
+        width: 50px;
+    }
+    .payza, .stripe, .braintree, .payfast{
+        height: 20px;
+        width: 50px;
+    }
+    .skrill, .pay-gate{
+        height: 20px;
+        width: 50px;
+    }
+    .back{
+        margin-top: 40px;
+        font-size: xx-small;
+    }
+    .footer{
+        height: 240px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .amazon{
+        height: 20px;
+        width: 50px;
+        margin-left: 10px;
+    }
+    .cars2{
+        font-size: medium;
+        margin-top: 0;
+        margin-left: 1px;
+    }
+    .sub-footer1{
+        font-size: x-small;
+        margin-left: 35px;
+    }
+    #careers{
+        margin-left: 15px;
+        font-size: xx-small;
+        color: #cfcfcf;
+    }
+    #blog{
+        margin-left: 22px;
+        font-size: xx-small;
+    }
+    #about{
+        margin-left: -5px;
+        font-size: xx-small;
+    }
+    #payment{
+        margin-left: 23px;
+        font-size: xx-small;
+    }
+    #banks{
+        margin-left: 70px;
+        font-size: xx-small;
+    }
+    #support{
+        margin-left: 31px;
+        font-size: xx-small;
+    }
+    #reviews{
+        margin-left: -10px;
+        font-size: xx-small;
+    }
+    #insurance{
+        margin-left: 43px;
+        font-size: xx-small;
+    }
+    #language{
+        height: 12px;
+        width: 55px;
+        margin-left: 40px;
+        font-size: xx-small;
+    }
+    .copy{
+        margin-top: 50px;
+        font-size: xx-small;
+        margin-left: 220px;
+    }
 }
