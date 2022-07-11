@@ -60,6 +60,8 @@ body{
 .sign-up{
     font-size: x-large;
     margin-right: 60px;
+    color: white;
+    text-decoration: none;
 }
 .options{
     text-align: center;

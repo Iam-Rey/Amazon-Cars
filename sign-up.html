@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="sign-up.css">
+</head>
+<body>
+    <div class="menu-bar">
+        <img src="Home-page imgs/logo3.png" alt="Amazon logo" class="logo1">
+        <h1 class="cars">Cars</h1>
+    </div>
+
+    <form action="">
+        <div class="registration-tag">
+            <h1 class="registration">Registration Page</h1>
+        </div>
+    
+        <div class="registration-details">
+            <table class="signups">
+                <tr>
+                    <td>
+                        <label for="fname" id="fname">First Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" class="fname" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lname" id="lname">Last Name</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" class="lname" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="othername" id="othername">Other Names</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" class="o-name"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email" id="email">Email</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="email" class="email" placeholder="amazoncars@example.com" required/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="number" id="number">Phone Number</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="tel" id="pnumber" class="box" name="pnumber" placeholder="(+234)000 0000 0000" required/></td>
+                </tr>
+                <tr class="pass">
+                    <td id="password">
+                        <label for="password">Password</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" class="password" 
+                        required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                        title="Must contain at least one number, one uppercase and lowercase letter,
+                         and at least 8 or more characters" required/>
+                    </td>
+                </tr>        
+                <tr class="pass">
+                    <td id="password">
+                        <label for="confirmpassword">Confirm Password</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="password" class="password" 
+                        required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                        title="Must contain at least one number, one uppercase and lowercase letter,
+                         and at least 8 or more characters" required/>
+                    </td>
+                </tr>            
+                <tr>
+                    <td>
+                        <label for="country">Country:</label>
+                    </td>
+                    <td><input type="text" id="country" class="box" required/></td>
+
+                    <td>
+                        <label for="state" class="state">State/Region:</label>
+                    </td>
+                    <td><input type="text" id="state" class="box" required/></td>
+                </tr>
+            </table>
+              <div class="button">
+                    <input type="submit" value="Sign In" class="submit">
+                </div>
+               <div class="account">
+                    <p id="account">Have an account? <a href="login.html"><span class="log">Login</span></a></p>
+               </div>
+</body>
+</html>
