@@ -54,6 +54,8 @@ body{
 .login{
     font-size: x-large;
     margin-left: -130px;
+    color: white;
+    text-decoration: none;
 }
 .sign-up{
     font-size: x-large;
@@ -432,6 +434,7 @@ li{
 .login:hover, .sign-up:hover{
     cursor: pointer;
     color: rgb(255, 153, 0);
+    text-decoration: none;
 }
 .login:active, .sign-up:active{
    color: navy;
@@ -558,9 +561,7 @@ a:active{
         height: 19px;
         background-color: rgb(255, 153, 0);
         margin-left: -59px;
-        padding-bottom: 1px;
-        /* padding-top: 1px; */
-        
+        padding-bottom: 1px;        
     }
     .login{
         font-size: x-small;
